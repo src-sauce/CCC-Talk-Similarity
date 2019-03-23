@@ -10,10 +10,6 @@ import requests
 from bs4 import BeautifulSoup
 
 
-__author__ = "info@dotarmin.info"
-# Git at https://github.com/src-sauce
-
-
 ignore = ['../', 'LICENSE_CC-BY-4.0.txt']
 
 
@@ -80,8 +76,10 @@ class SRTs:
         if n_dirs == 0: n_dirs = len(dirs)
         for i in range(n_dirs):
             directory = dirs[i]
-            for file in [fi for fi in os.listdir('%s%s/' % (self.srts_dir, directory)) if fi.split('.')[-1] == 'srt']:
-                srt_objects[file] = pysrt.open('%s%s/%s' % (self.srts_dir, directory, file))
+            if os.path.isdir('%s%s' % (self.srts_dir, directory)):
+                for file in [fi for fi in os.listdir('%s%s' % (self.srts_dir, directory))
+                             if fi.split('.')[-1] == 'srt']:
+                    srt_objects[file] = pysrt.open('%s%s/%s' % (self.srts_dir, directory, file))
         # print('Availble files %s' % len(srt_objects))
         return srt_objects
 
