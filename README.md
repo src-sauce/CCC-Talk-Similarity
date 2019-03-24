@@ -6,16 +6,21 @@ Looking at some stats and see how far I cmoe with a simple model.
 ## Requirements
 Also see requirements.txt
 
+Lang | Version 
+:---: | :---: 
+Python | 3.6.x
+
 Package name | Version | Stage
 :--- | :--- | :---
-guess-language-spirit | 0.5.3 |
-matplotlib | 2.2.3 |
-pysrt | 1.1.1 |
-gensim | 3.5.0 |
-pandas | 0.23.3 |
-numpy | 1.14.5 |
+bs4 | 0.0.1 | download
+guess-language-spirit | 0.5.3 | parsing
+pysrt | 1.1.1 | parsing
+nltk | 1.1.0 | parsing
+gensim | 3.5.0 | model
+matplotlib | 2.2.3 | all
+pandas | 0.23.3 | all
+numpy | 1.14.5 | all
 scipy | 1.1.0 |
-bs4 | 0.0.1 |
 
 ## Download Data
 The config notes url and directory, to get the data from and where to put it.
@@ -49,7 +54,7 @@ Ok now there is some data. (~31.7MB)
 
 ## Parsing and Features
 Not that nltk.corpus might not include the dictionary.
-Fetch it in python console: <code>bashuser$ python3</code>
+Fetch it in python console: bashuser$ <code>python3</code>
 ~~~
 import nltk
 nltk.download('words')
@@ -62,10 +67,30 @@ False
 [nltk_data]     (_ssl.c:852)>
 ~~~
 Use this fix at [nltk/issues/2158](https://github.com/nltk/nltk/issues/2158).
-Python 3.6 is you local python directory.
+<code>Python 3.6</code> is you local python directory.
 ~~~
 open ~./Python\ 3.6/Install Certificates.command
 ~~~ 
 
+#### Parsing Process & Feature Creation
 <code>TODO</code>
 
+## Model Output
+
+Feature distribution in three example topic
+
+10|4|17|...
+---|---|---|---
+attack|certificate|file|...
+memory|key|attack|...
+address|law|key|...
+cache|log|secure|...
+social|memory|cache|...
+surveillance|search|user|...
+key|net|memory|...
+instruction|certification|encryption|...
+file|address|attacker|...
+module|value|input|...
+
+#### Using the model
+<code>TODO</code>

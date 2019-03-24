@@ -1,0 +1,11 @@
+{
+  	"SUBTITLES" : "../DownloadData/subtitles/",
+	"LANG" : "en",
+	"NLP" : {
+		"Stops" : true,
+		"File" : "./ger_stopwords.txt"
+	},
+	"MODEL" : "./model/ccc_en_model.model",
+	"DICT" : "./model/ccc_en_dict.txt",
+	"EXAMPLES" : "../examples/"
+}
