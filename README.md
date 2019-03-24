@@ -98,7 +98,7 @@ module|value|input|...
 
 #### Example results
 
-![sim matrix](https://github.com/src-sauce/CCC-Talk-Similarity/blob/master/examples/myplot.png])
+[![sim matrix](https://github.com/src-sauce/CCC-Talk-Similarity/blob/master/examples/myplot.png])]
 
 Number|File
 ---|---
