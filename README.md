@@ -94,3 +94,48 @@ module|value|input|...
 
 #### Using the model
 <code>TODO</code>
+
+
+#### Example results
+
+![sim matrix](./examples/myplot.png])
+
+Number|File
+---|---
+1|Locked_up_science.en.srt
+2|Mobile_Censorship_in_Iran.en.srt
+3|Dude_you_broke_the_Future.en.srt
+4|State_of_the_Onion.en.srt
+5|WTFrance.en.srt
+6|Tor_onion_services_more_useful_than_you_think.en.srt
+7|Transmission_Control_Protocol.en.srt
+8|31C3_Keynote.en.srt
+9|Why_is_GPG_damn_near_unusable.en.srt
+10|State_of_the_Onion.en.srt
+11|PUFs_protection_privacy_PRNGs.en.srt
+12|formal.en.srt
+13|The_Social_Credit_System.en.srt
+14|Algorithmic_science_evaluation_and_power_structure_the_...
+15|A_look_into_the_Mobile_Messaging_Black_Box.en.srt
+16|Organisational_Structures_for_Sustainable_Free_Software_...
+17|The_Tor_Network.en.srt
+18|Iridium_Update.en.srt
+19|What_does_Big_Brother_see_while_he_is_watching.en.srt
+20|Ein_Abgrund_von_Landesverrat.en.srt
+21|Bootstraping_a_slightly_more_secure_laptop.en.srt
+22|The_Rocky_Road_to_TLS_13_and_better_Internet_Encryption...
+23|Collect_It_All_Open_Source_Intelligence_OSINT_for_...
+24|Hellman_discrete_logs_the_NSA_and_you.en.srt
+25|The_Universe_Is_Like_Seriously_Huge.en.srt
+26|Internet_of_Fails.en.srt
+27|International_exchange_of_tax_information.en.srt
+28|Shut_Up_and_Take_My_Money.en.srt
+29|Deep_Learning_Blindspots.en.srt
+30|Defeating_Not_Petyas_Cryptography.en.srt
+31|Switches_Get_Stitches.en.srt
+32|Towards_reasonably_trustworthy_x86_laptops.en.srt
+33|Beyond_your_cable_modem.en.srt
+34|day_exploit_development_for_Cisco_IOS.en.srt
+35|Sense_without_sight_a_crash_course_on_BlindNavi...
+36|Gone_in_60_Milliseconds.en.srt
+

@@ -56,13 +56,16 @@ def _tokenise(documents, stopwords=None, min_length=3):
 
 def getTextsByLang(texts, lang):
     language_texts = {}
-    for text in texts:
+    language_indexes = {}
+    for index, text in enumerate(texts):
         language = guess_language(text)
         if language in language_texts.keys():
             language_texts[language].append(text)
+            language_indexes[language].append(index)
         else:
             language_texts[language] = [text]
-    return language_texts
+            language_indexes[language] = [index]
+    return language_texts, language_indexes
 
 
 def getStopwordsByLang(language=None):
